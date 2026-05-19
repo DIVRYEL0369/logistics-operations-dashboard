@@ -252,7 +252,7 @@ with col_b:
     )
 
     st.info(
-        "💡 Spot bookings appear to contribute more revenue than contract loads, while dedicated generates the overall highest revenue."
+        "Spot bookings appear to contribute more revenue than Contract loads, while Dedicated generates the overall highest revenue."
     )
 
 st.divider()
@@ -299,7 +299,7 @@ peak_month = monthly_revenue.loc[
 ]
 
 st.success(
-    f"✅ Peak operational revenue occurred in {peak_month}."
+    f"Peak operational revenue occurred in {peak_month}."
 )
 
 st.divider()
@@ -353,7 +353,7 @@ with col_c:
     )
 
     st.info(
-        "💡 High on-time performance indicates strong operational efficiency."
+        "High on-time performance indicates strong operational efficiency."
     )
 
 # ---------------------------------------------------
@@ -390,7 +390,7 @@ with col_d:
     )
 
     st.warning(
-        "⚠️ States with high detention times like INDIANA and CALIFORNIA may indicate warehouse bottlenecks or scheduling inefficiencies."
+        "States with high detention times like INDIANA and CALIFORNIA may indicate warehouse bottlenecks or scheduling inefficiencies."
     )
 
 st.divider()
@@ -437,7 +437,7 @@ with col_e:
     )
 
     st.info(
-        "💡 Preventive maintenance can reduce long-term repair expenses."
+        "Preventive maintenance can reduce long-term repair expenses."
     )
 
 # ---------------------------------------------------
@@ -474,7 +474,7 @@ with col_f:
     )
 
     st.warning(
-        "⚠️ States like TEXAS and TENNESSEE with elevated fuel costs may represent major logistics corridors."
+        "States like TEXAS and TENNESSEE with elevated fuel costs may represent major logistics corridors."
     )
 
 st.divider()
@@ -513,7 +513,7 @@ st.plotly_chart(
 )
 
 st.success(
-    "✅ Top-performing customers drive a substantial share of company revenue."
+    "Top-performing customers drive a substantial share of company revenue."
 )
 
 st.divider()
@@ -527,7 +527,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style='text-align: center; color: gray;'>
-        <h4>🚀 Developed By</h4>
+        <h4> Developed By</h4>
         <p style='font-size:20px;'><strong>Divine Ejee</strong></p>
         <p>Data Analytics • Business Intelligence • Logistics Analytics</p>
         <p>Built with Streamlit, Pandas & Plotly</p>
