@@ -215,7 +215,7 @@ with col_a:
     )
 
     st.info(
-        "💡 Full truckload shipments generate the highest revenue contribution as both Dry Van and Refrigerated generates almost same income."
+        "Full truckload shipments generate the highest revenue contribution as both Dry Van and Refrigerated generates almost same income."
     )
 
 # ---------------------------------------------------
